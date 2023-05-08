@@ -1,0 +1,20 @@
+{
+  "name": "babel-plugin-sky0014-store-helper",
+  "version": "1.0.0",
+  "description": "A helper for @sky0014/store",
+  "main": "lib/index.js",
+  "scripts": {
+    "pub": "npm publish --registry=https://registry.npmjs.org --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky0014/babel-plugin-sky0014-store-helper.git"
+  },
+  "keywords": [],
+  "author": "sky0014 <sky-wang@qq.com>",
+  "bugs": {
+    "url": "https://github.com/sky0014/babel-plugin-sky0014-store-helper/issues"
+  },
+  "homepage": "https://github.com/sky0014/babel-plugin-sky0014-store-helper/#readme",
+  "devDependencies": {}
+}
