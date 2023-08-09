@@ -22,6 +22,20 @@ Add to `babel.config.js`
 plugins: ["babel-plugin-sky0014-store-helper", ...],  // first place
 ```
 
+If you use custom import alias:
+
+```js
+import something from "@src/something";
+```
+
+This plugin will auto read `tsconfig.json -> paths` attribute to handle that.
+
+Otherwise, you should pass alias to plugin like this (just like `webpack config alias`):
+
+```js
+plugins: [["babel-plugin-sky0014-store-helper", { alias: { "@src": "xxxxx" } }], ...],  // first place
+```
+
 ## Publish
 
 If your first time publish a package, login first:
